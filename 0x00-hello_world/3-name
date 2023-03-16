@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc app.c $CFILE -o cisfun
