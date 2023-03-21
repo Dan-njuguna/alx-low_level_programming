@@ -1,23 +1,23 @@
 #include <stdio.h>
 /**
- * main - checks is a number is positive or negative
+ * main - checks if a number is positive, negative or zero
  * Return: Always 0
  */
 int main(void)
 {
 	int n;
 
-	if
+	if 
 		(n > 0);
 	{
 		printf("%d is positive\n", n);
 	}
-	else if
+	else if 
 		(n == 0);
 	{
 		printf("%d is zero\n", n);
 	}
-	else
+	else 
 	{
 		printf("%d is negative\n", n);
 	}
