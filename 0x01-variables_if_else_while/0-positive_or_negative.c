@@ -1,27 +1,26 @@
 #include <stdio.h>
-/**
- * main - entry
- * Return: Always 0
- */
-int main(void)
-{
-	int n = 0;
-	n++;
-	n--;
+#include <stdlib.h>
+#include <time.h>
 
+int main()
+{
+	int n;
+	srand(time(NULL));
+	n = rand() % 21 - 10; /*generates a random number between -10 and 10*/
+	printf("The number %d ", n);
 	if
 		(n > 0)
-	{
-		printf("%d is positive\n", n);
-	}
-	if
-		(n == 0)
-	{
-		printf("%d is zero\n", n);
-	}
+		{
+			printf("is positive\n");
+		}
+	else if
+	       (n == 0)
+	       {
+		       printf("is zero\n");
+	       }
 	else
 	{
-		printf("%d is negative\n", n);
+		printf("is negative\n");
 	}
-	return (0);
+	return 0;
 }
