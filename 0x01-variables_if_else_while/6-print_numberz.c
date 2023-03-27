@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
  * main - entry
+ *
  * Return: Always 0
  */
 int main(void)
 {
-	int n;
+	int i;
 
-	for (n = 0 ; n < 10 ; n++)
-		putchar(n);
+	for (i = 0 ; i < 10 ; i++)
+		putchar(i);
 	putchar('\n');
 	return (0);
 }
