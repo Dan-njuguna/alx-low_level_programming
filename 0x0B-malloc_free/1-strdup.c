@@ -11,27 +11,13 @@
  */
 char *_strdup(char *str)
 {
-	char *n_str;
+	char *s;
 
-	n_str = strdup(str);
 	if (str == NULL)
 		return (NULL);
-	n_str = malloc(strlen(str) + 1);
-	if (n_str == NULL)
+	s = malloc(strlen(str)+1);
+	if (s == NULL)
 		return (NULL);
-	return (n_str);
-}
-/**
- * strdup_main - entry point
- * Return:  Always 0
- */
-int strdup_main(void)
-{
-	char *str = "ALX School";
-	char *n_str = strdup(str);
-
-	printf("Original string: %s\n", str);
-	printf("Duplicate string: %s\n", n_str);
-	free(n_str);
-	return (0);
+	strcpy(s, str);
+	return (s);
 }
