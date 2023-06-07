@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 	return (_sqrt(n, 0));
 }
 /**
- * actual_sqrt_recursion - recurses to find natural
+ * _sqrt - recurses to find natural
  * sqrt of n
  * @n: Number to get sqrt of
  * @i: Iteration
