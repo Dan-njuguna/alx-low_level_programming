@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _puts_recursion - prints a string followed by a nw=ew line
+ * @s: Input value
  * Return: void
  */
 void _puts_recursion(char *s)
