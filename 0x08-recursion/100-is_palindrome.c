@@ -11,6 +11,13 @@ int _strlen(char *s)
 	else
 		return (1 + _strlen(s + 1));
 }
+/**
+ * compare - compares each character of string
+ * @s: string
+ * @n1: smaller iterator
+ * @n2: largest iterator
+ * Return: .
+ */
 int compare(char *s, int n1, int n2)
 {
 	if (*(s + n1) == *(s + n2))
