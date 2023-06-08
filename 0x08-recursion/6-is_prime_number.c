@@ -21,7 +21,7 @@ int _prime(int n, int x)
 {
 	if (n <= 1)
 		return (0);
-	if (n % 1 == 0 && x > 0)
+	if (n % x == 0 && x > 0)
 		return (0);
 	if ((n / x) < x)
 		return (1);
