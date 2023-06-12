@@ -2,5 +2,5 @@
 
 int _atoi(char *s)
 {
-	/* changes character to integer, hivo tu */
+	/*_atoi library*/
 }

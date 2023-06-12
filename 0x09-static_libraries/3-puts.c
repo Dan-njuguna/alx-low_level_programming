@@ -2,5 +2,5 @@
 
 void _puts(char *s)
 {
-	/* _puts library*/
+	return;
 }

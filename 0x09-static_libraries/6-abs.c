@@ -2,5 +2,5 @@
 
 int _abs(int n)
 {
-	/*_abs library*/
+	return (n);
 }

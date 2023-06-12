@@ -2,5 +2,5 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	/*New library*/
+	/* _memset library*/
 }

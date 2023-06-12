@@ -2,5 +2,5 @@
 
 int _isdigit(int c)
 {
-	/* _isdigit library */
+	return (c);
 }

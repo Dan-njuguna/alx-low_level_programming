@@ -2,5 +2,5 @@
 
 int _isalpha(int c)
 {
-	/* _isalpha library */
+	return (c);
 }

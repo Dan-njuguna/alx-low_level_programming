@@ -2,5 +2,5 @@
 
 int _islower(int c)
 {
-	/*Integer is lower library*/
+	return (c);
 }

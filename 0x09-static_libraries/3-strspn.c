@@ -2,5 +2,5 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	/*_strspn library*/
+	/* Returns to positive integer*/
 }

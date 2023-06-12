@@ -2,5 +2,5 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	/* I love C */
+	return (dest);
 }
