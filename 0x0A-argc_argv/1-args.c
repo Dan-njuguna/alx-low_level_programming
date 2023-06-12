@@ -7,7 +7,7 @@
  */
 int main(int argc, char *argv[])
 {
-	while (*argv++)
+	while (*argv)
 	{
 		printf("%d\n", argc);
 		return (0);
