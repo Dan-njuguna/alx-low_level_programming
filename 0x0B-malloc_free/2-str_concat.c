@@ -10,7 +10,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int i, j, k = 0;
+	int i, j, k = 0, l;
 	char *s;
 
 	i = 0;
@@ -27,11 +27,14 @@ char *str_concat(char *s1, char *s2)
 	{
 		j++;
 	}
-
+	l =  i + j;
 	s = malloc((sizeof(char) * (i + j) + 1));
-	while (k < (i + j))
+	j = 0;
+	while (k < l)
 	{
 		if (k <= i)
+			s[k] = s1[k];
+		if (k >= i)
 		{
 			s[k] = s2[j];
 			j++;
