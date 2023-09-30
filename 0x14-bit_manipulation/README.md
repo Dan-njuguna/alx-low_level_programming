@@ -1,5 +1,7 @@
-<u>0x14-Bit_Manipulation</u>
-<h1> Objectives:</h1>
+<b>
+<h1><u>0x14-Bit_Manipulation</u></h1>
+</b>
+<h2> Objectives:</h2>
 <ul>
 <li> Learn how to write base 10(binary) numbers to base 2(binary).</li>
 <li> Learn convertion of base 2(binary) to base 10(decimal).</li>
