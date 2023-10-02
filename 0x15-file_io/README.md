@@ -1,5 +1,5 @@
-<title> 0x15_file_io </title>
-<h1> Learning Objectives: </h1>
+<h1><b> 0x15_file_io</b> </h1>
+<h2> Learning Objectives: </h2>
 <ul>
 <li> Understand the how the Kernel interacts with the OS. </li>
 <li> Understand the working of APIs with relation to sockets using File Input and Output. </li>
