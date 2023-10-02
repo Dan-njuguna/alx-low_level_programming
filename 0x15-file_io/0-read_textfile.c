@@ -2,13 +2,13 @@
 #include <stdio.h>
 /**
  * read_textfile - reads contents of a file
- * 	upto the given number of characters
+ *	upto the given number of characters
  * @filename: File to be opened
  * @letters: number of characters to be read
  * Return: no. of chars read and printed,
- * 	0 if file cannot be opened.
- * 	0 if filename is NULL.
- * 	0 if write fails.
+ *	0 if file cannot be opened.
+ *	0 if filename is NULL.
+ *	0 if write fails.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
