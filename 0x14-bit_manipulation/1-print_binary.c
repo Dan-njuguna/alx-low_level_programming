@@ -1,29 +1,25 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * print_binary - prints binary representation
- * @n: long unsigned iny
- * Retunr: Nothing
+ * print_binary - prints the binary equivalent of a decimal number
+ * @n: number to print in binary
  */
 void print_binary(unsigned long int n)
 {
-	int len, buf = 0;
+	int i, count = 0;
 	unsigned long int current;
 
-	for (len = 63; len >= 0; len--)
+	for (i = 63; i >= 0; i--)
 	{
-		current = n >> len;
+		current = n >> i;
 
 		if (current & 1)
 		{
 			putchar('1');
-			buf++;
+			count++;
 		}
-		else if (buf)
-		{
+		else if (count)
 			putchar('0');
-		}
 	}
-	if (!buf)
+	if (!count)
 		putchar('0');
 }
