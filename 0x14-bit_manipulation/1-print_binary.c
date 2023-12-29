@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_binary - prints binary representation
@@ -15,14 +16,14 @@ void print_binary(unsigned long int n)
 
 		if (current & 1)
 		{
-			_putchar('1');
+			putchar('1');
 			buf++;
 		}
 		else if (buf)
 		{
-			_putchar('0');
+			putchar('0');
 		}
 	}
 	if (!buf)
-		_putchar('0');
+		putchar('0');
 }
